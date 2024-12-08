@@ -1,0 +1,17 @@
+.logout-icon {
+    width: 25px; 
+    height: 25px;
+    background-color: white !important;
+
+}
+
+.brain-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-nav{
+    background-color: rgb(117, 117, 195);
+    border-radius: 10px;
+    font-weight: bold;
+}
