@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connection = async (req, res) => {
     try{
-        await mongoose.connect("mongodb+srv://task_user:nEKA3A4jv9s6LjBG@cluster0.d75fp.mongodb.net/").then(() => {
+        await mongoose.connect(`${mongodb_atlas_connection_string_here_from_dotenv_url}`).then(() => {
             console.log("Connected Successfully")
         })
     } catch(error){
